@@ -11,6 +11,7 @@
 		834F6FE62A8DF2610079F00A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6FE52A8DF2610079F00A /* ContentView.swift */; };
 		834F6FE82A8DF2620079F00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834F6FE72A8DF2620079F00A /* Assets.xcassets */; };
 		834F6FEB2A8DF2620079F00A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834F6FEA2A8DF2620079F00A /* Preview Assets.xcassets */; };
+		83DEF55A2A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEF5592A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		834F6FE72A8DF2620079F00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834F6FEA2A8DF2620079F00A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		834F6FEC2A8DF2620079F00A /* ForceTouchSlider_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForceTouchSlider_SwiftUI.entitlements; sourceTree = "<group>"; };
+		83DEF5592A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-17 at 2.25.49 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		834F6FD72A8DF2610079F00A = {
 			isa = PBXGroup;
 			children = (
+				83DEF5582A8DF62C002018A1 /* pics */,
 				834F6FE22A8DF2610079F00A /* ForceTouchSlider-SwiftUI */,
 				834F6FE12A8DF2610079F00A /* Products */,
 			);
@@ -67,6 +70,14 @@
 				834F6FEA2A8DF2620079F00A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83DEF5582A8DF62C002018A1 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				83DEF5592A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */,
+			);
+			path = pics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				834F6FEB2A8DF2620079F00A /* Preview Assets.xcassets in Resources */,
+				83DEF55A2A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png in Resources */,
 				834F6FE82A8DF2620079F00A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
