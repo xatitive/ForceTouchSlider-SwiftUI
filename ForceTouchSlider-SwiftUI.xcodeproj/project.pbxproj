@@ -7,25 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		834F6FE42A8DF2610079F00A /* ForceTouchSlider_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6FE32A8DF2610079F00A /* ForceTouchSlider_SwiftUIApp.swift */; };
-		834F6FE62A8DF2610079F00A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6FE52A8DF2610079F00A /* ContentView.swift */; };
-		834F6FE82A8DF2620079F00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834F6FE72A8DF2620079F00A /* Assets.xcassets */; };
-		834F6FEB2A8DF2620079F00A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834F6FEA2A8DF2620079F00A /* Preview Assets.xcassets */; };
-		83DEF55A2A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEF5592A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */; };
+		834F6FD62A8DF0880079F00A /* ForceTouchSlider-SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6FD42A8DF0880079F00A /* ForceTouchSlider-SwiftUIApp.swift */; };
+		83B59A912A8D2D780090957C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B59A8B2A8D2D780090957C /* Assets.xcassets */; };
+		83B59A922A8D2D780090957C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B59A8D2A8D2D780090957C /* Preview Assets.xcassets */; };
+		83B59A942A8D2D780090957C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B59A8F2A8D2D780090957C /* ContentView.swift */; };
+		83DEF5572A8DF578002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEF5562A8DF578002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		834E1B272A8D27E300DFC49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834E1B0D2A8D27E100DFC49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834E1B142A8D27E100DFC49B;
+			remoteInfo = swimilate;
+		};
+		834E1B312A8D27E300DFC49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834E1B0D2A8D27E100DFC49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834E1B142A8D27E100DFC49B;
+			remoteInfo = swimilate;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		834F6FE02A8DF2610079F00A /* ForceTouchSlider-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForceTouchSlider-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		834F6FE32A8DF2610079F00A /* ForceTouchSlider_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchSlider_SwiftUIApp.swift; sourceTree = "<group>"; };
-		834F6FE52A8DF2610079F00A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		834F6FE72A8DF2620079F00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		834F6FEA2A8DF2620079F00A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		834F6FEC2A8DF2620079F00A /* ForceTouchSlider_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForceTouchSlider_SwiftUI.entitlements; sourceTree = "<group>"; };
-		83DEF5592A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-17 at 2.25.49 AM.png"; sourceTree = "<group>"; };
+		834E1B152A8D27E100DFC49B /* ForceTouchSlider-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForceTouchSlider-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834E1B262A8D27E300DFC49B /* ForceTouchSlider-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ForceTouchSlider-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834E1B302A8D27E300DFC49B /* ForceTouchSlider-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ForceTouchSlider-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834F6FD42A8DF0880079F00A /* ForceTouchSlider-SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ForceTouchSlider-SwiftUIApp.swift"; sourceTree = "<group>"; };
+		834F6FD52A8DF0880079F00A /* ForceTouchSlider-SwiftUI.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "ForceTouchSlider-SwiftUI.entitlements"; sourceTree = "<group>"; };
+		83B59A8B2A8D2D780090957C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83B59A8D2A8D2D780090957C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83B59A8F2A8D2D780090957C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83DEF5562A8DF578002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-17 at 2.25.49 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		834F6FDD2A8DF2610079F00A /* Frameworks */ = {
+		834E1B122A8D27E100DFC49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834E1B232A8D27E300DFC49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834E1B2D2A8D27E300DFC49B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,47 +68,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		834F6FD72A8DF2610079F00A = {
+		834E1B0C2A8D27E100DFC49B = {
 			isa = PBXGroup;
 			children = (
-				83DEF5582A8DF62C002018A1 /* pics */,
-				834F6FE22A8DF2610079F00A /* ForceTouchSlider-SwiftUI */,
-				834F6FE12A8DF2610079F00A /* Products */,
+				83DEF5552A8DF56F002018A1 /* pics */,
+				83B59A8A2A8D2D780090957C /* ForceTouchSlider-SwiftUI */,
+				834E1B162A8D27E100DFC49B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		834F6FE12A8DF2610079F00A /* Products */ = {
+		834E1B162A8D27E100DFC49B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				834F6FE02A8DF2610079F00A /* ForceTouchSlider-SwiftUI.app */,
+				834E1B152A8D27E100DFC49B /* ForceTouchSlider-SwiftUI.app */,
+				834E1B262A8D27E300DFC49B /* ForceTouchSlider-SwiftUITests.xctest */,
+				834E1B302A8D27E300DFC49B /* ForceTouchSlider-SwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		834F6FE22A8DF2610079F00A /* ForceTouchSlider-SwiftUI */ = {
+		83B59A8A2A8D2D780090957C /* ForceTouchSlider-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				834F6FE32A8DF2610079F00A /* ForceTouchSlider_SwiftUIApp.swift */,
-				834F6FE52A8DF2610079F00A /* ContentView.swift */,
-				834F6FE72A8DF2620079F00A /* Assets.xcassets */,
-				834F6FEC2A8DF2620079F00A /* ForceTouchSlider_SwiftUI.entitlements */,
-				834F6FE92A8DF2620079F00A /* Preview Content */,
+				83B59A8B2A8D2D780090957C /* Assets.xcassets */,
+				83B59A8C2A8D2D780090957C /* Preview Content */,
+				83B59A8F2A8D2D780090957C /* ContentView.swift */,
+				834F6FD52A8DF0880079F00A /* ForceTouchSlider-SwiftUI.entitlements */,
+				834F6FD42A8DF0880079F00A /* ForceTouchSlider-SwiftUIApp.swift */,
 			);
 			path = "ForceTouchSlider-SwiftUI";
 			sourceTree = "<group>";
 		};
-		834F6FE92A8DF2620079F00A /* Preview Content */ = {
+		83B59A8C2A8D2D780090957C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				834F6FEA2A8DF2620079F00A /* Preview Assets.xcassets */,
+				83B59A8D2A8D2D780090957C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		83DEF5582A8DF62C002018A1 /* pics */ = {
+		83DEF5552A8DF56F002018A1 /* pics */ = {
 			isa = PBXGroup;
 			children = (
-				83DEF5592A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */,
+				83DEF5562A8DF578002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png */,
 			);
 			path = pics;
 			sourceTree = "<group>";
@@ -83,39 +118,83 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		834F6FDF2A8DF2610079F00A /* ForceTouchSlider-SwiftUI */ = {
+		834E1B142A8D27E100DFC49B /* ForceTouchSlider-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 834F6FEF2A8DF2620079F00A /* Build configuration list for PBXNativeTarget "ForceTouchSlider-SwiftUI" */;
+			buildConfigurationList = 834E1B3A2A8D27E300DFC49B /* Build configuration list for PBXNativeTarget "ForceTouchSlider-SwiftUI" */;
 			buildPhases = (
-				834F6FDC2A8DF2610079F00A /* Sources */,
-				834F6FDD2A8DF2610079F00A /* Frameworks */,
-				834F6FDE2A8DF2610079F00A /* Resources */,
+				834E1B112A8D27E100DFC49B /* Sources */,
+				834E1B122A8D27E100DFC49B /* Frameworks */,
+				834E1B132A8D27E100DFC49B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "ForceTouchSlider-SwiftUI";
-			productName = "ForceTouchSlider-SwiftUI";
-			productReference = 834F6FE02A8DF2610079F00A /* ForceTouchSlider-SwiftUI.app */;
+			productName = swimilate;
+			productReference = 834E1B152A8D27E100DFC49B /* ForceTouchSlider-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
+		};
+		834E1B252A8D27E300DFC49B /* ForceTouchSlider-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834E1B3D2A8D27E300DFC49B /* Build configuration list for PBXNativeTarget "ForceTouchSlider-SwiftUITests" */;
+			buildPhases = (
+				834E1B222A8D27E300DFC49B /* Sources */,
+				834E1B232A8D27E300DFC49B /* Frameworks */,
+				834E1B242A8D27E300DFC49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834E1B282A8D27E300DFC49B /* PBXTargetDependency */,
+			);
+			name = "ForceTouchSlider-SwiftUITests";
+			productName = swimilateTests;
+			productReference = 834E1B262A8D27E300DFC49B /* ForceTouchSlider-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834E1B2F2A8D27E300DFC49B /* ForceTouchSlider-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834E1B402A8D27E300DFC49B /* Build configuration list for PBXNativeTarget "ForceTouchSlider-SwiftUIUITests" */;
+			buildPhases = (
+				834E1B2C2A8D27E300DFC49B /* Sources */,
+				834E1B2D2A8D27E300DFC49B /* Frameworks */,
+				834E1B2E2A8D27E300DFC49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834E1B322A8D27E300DFC49B /* PBXTargetDependency */,
+			);
+			name = "ForceTouchSlider-SwiftUIUITests";
+			productName = swimilateUITests;
+			productReference = 834E1B302A8D27E300DFC49B /* ForceTouchSlider-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		834F6FD82A8DF2610079F00A /* Project object */ = {
+		834E1B0D2A8D27E100DFC49B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					834F6FDF2A8DF2610079F00A = {
+					834E1B142A8D27E100DFC49B = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					834E1B252A8D27E300DFC49B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 834E1B142A8D27E100DFC49B;
+					};
+					834E1B2F2A8D27E300DFC49B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 834E1B142A8D27E100DFC49B;
 					};
 				};
 			};
-			buildConfigurationList = 834F6FDB2A8DF2610079F00A /* Build configuration list for PBXProject "ForceTouchSlider-SwiftUI" */;
+			buildConfigurationList = 834E1B102A8D27E100DFC49B /* Build configuration list for PBXProject "ForceTouchSlider-SwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,43 +202,86 @@
 				en,
 				Base,
 			);
-			mainGroup = 834F6FD72A8DF2610079F00A;
-			productRefGroup = 834F6FE12A8DF2610079F00A /* Products */;
+			mainGroup = 834E1B0C2A8D27E100DFC49B;
+			productRefGroup = 834E1B162A8D27E100DFC49B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				834F6FDF2A8DF2610079F00A /* ForceTouchSlider-SwiftUI */,
+				834E1B142A8D27E100DFC49B /* ForceTouchSlider-SwiftUI */,
+				834E1B252A8D27E300DFC49B /* ForceTouchSlider-SwiftUITests */,
+				834E1B2F2A8D27E300DFC49B /* ForceTouchSlider-SwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		834F6FDE2A8DF2610079F00A /* Resources */ = {
+		834E1B132A8D27E100DFC49B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834F6FEB2A8DF2620079F00A /* Preview Assets.xcassets in Resources */,
-				83DEF55A2A8DF62C002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png in Resources */,
-				834F6FE82A8DF2620079F00A /* Assets.xcassets in Resources */,
+				83B59A922A8D2D780090957C /* Preview Assets.xcassets in Resources */,
+				83DEF5572A8DF578002018A1 /* Screenshot 2023-08-17 at 2.25.49 AM.png in Resources */,
+				83B59A912A8D2D780090957C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834E1B242A8D27E300DFC49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834E1B2E2A8D27E300DFC49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		834F6FDC2A8DF2610079F00A /* Sources */ = {
+		834E1B112A8D27E100DFC49B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834F6FE62A8DF2610079F00A /* ContentView.swift in Sources */,
-				834F6FE42A8DF2610079F00A /* ForceTouchSlider_SwiftUIApp.swift in Sources */,
+				834F6FD62A8DF0880079F00A /* ForceTouchSlider-SwiftUIApp.swift in Sources */,
+				83B59A942A8D2D780090957C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834E1B222A8D27E300DFC49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834E1B2C2A8D27E300DFC49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		834E1B282A8D27E300DFC49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834E1B142A8D27E100DFC49B /* ForceTouchSlider-SwiftUI */;
+			targetProxy = 834E1B272A8D27E300DFC49B /* PBXContainerItemProxy */;
+		};
+		834E1B322A8D27E300DFC49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834E1B142A8D27E100DFC49B /* ForceTouchSlider-SwiftUI */;
+			targetProxy = 834E1B312A8D27E300DFC49B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		834F6FED2A8DF2620079F00A /* Debug */ = {
+		834E1B382A8D27E300DFC49B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		834F6FEE2A8DF2620079F00A /* Release */ = {
+		834E1B392A8D27E300DFC49B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,12 +399,13 @@
 			};
 			name = Release;
 		};
-		834F6FF02A8DF2620079F00A /* Debug */ = {
+		834E1B3B2A8D27E300DFC49B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ForceTouchSlider-SwiftUI/ForceTouchSlider_SwiftUI.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ForceTouchSlider-SwiftUI/ForceTouchSlider-SwiftUI.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -296,20 +419,22 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "bigfatcocks.ForceTouchSlider-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = bigfatcocks.swimilate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		834F6FF12A8DF2620079F00A /* Release */ = {
+		834E1B3C2A8D27E300DFC49B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "ForceTouchSlider-SwiftUI/ForceTouchSlider_SwiftUI.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ForceTouchSlider-SwiftUI/ForceTouchSlider-SwiftUI.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -323,36 +448,127 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "bigfatcocks.ForceTouchSlider-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = bigfatcocks.swimilate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
+		834E1B3E2A8D27E300DFC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 429U9ZSTKA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigfatcocks.swimilateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchSlider-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForceTouchSlider-SwiftUI";
+			};
+			name = Debug;
+		};
+		834E1B3F2A8D27E300DFC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 429U9ZSTKA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigfatcocks.swimilateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchSlider-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForceTouchSlider-SwiftUI";
+			};
+			name = Release;
+		};
+		834E1B412A8D27E300DFC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 429U9ZSTKA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigfatcocks.swimilateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = swimilate;
+			};
+			name = Debug;
+		};
+		834E1B422A8D27E300DFC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 429U9ZSTKA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigfatcocks.swimilateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = swimilate;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		834F6FDB2A8DF2610079F00A /* Build configuration list for PBXProject "ForceTouchSlider-SwiftUI" */ = {
+		834E1B102A8D27E100DFC49B /* Build configuration list for PBXProject "ForceTouchSlider-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				834F6FED2A8DF2620079F00A /* Debug */,
-				834F6FEE2A8DF2620079F00A /* Release */,
+				834E1B382A8D27E300DFC49B /* Debug */,
+				834E1B392A8D27E300DFC49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		834F6FEF2A8DF2620079F00A /* Build configuration list for PBXNativeTarget "ForceTouchSlider-SwiftUI" */ = {
+		834E1B3A2A8D27E300DFC49B /* Build configuration list for PBXNativeTarget "ForceTouchSlider-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				834F6FF02A8DF2620079F00A /* Debug */,
-				834F6FF12A8DF2620079F00A /* Release */,
+				834E1B3B2A8D27E300DFC49B /* Debug */,
+				834E1B3C2A8D27E300DFC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834E1B3D2A8D27E300DFC49B /* Build configuration list for PBXNativeTarget "ForceTouchSlider-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834E1B3E2A8D27E300DFC49B /* Debug */,
+				834E1B3F2A8D27E300DFC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834E1B402A8D27E300DFC49B /* Build configuration list for PBXNativeTarget "ForceTouchSlider-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834E1B412A8D27E300DFC49B /* Debug */,
+				834E1B422A8D27E300DFC49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 834F6FD82A8DF2610079F00A /* Project object */;
+	rootObject = 834E1B0D2A8D27E100DFC49B /* Project object */;
 }
